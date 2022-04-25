@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: Roboto;
+}
+
+ul .none {
+    list-style-type: none;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_menu {
+    display: flex;
+    gap: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header_list a {
+    color: black;
+}
+
+.firstsection_container {
+    background-image: url("Images/backgroung_image.jpg");
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_logo {
+    width: 200px;
+    height: 60px;
+}
+
+.btnsub_text {
+    color: white;
+    font-size: 30px;
+}
+
+.secondsection_container {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.secondsection_text {
+    text-align: center;
+    font-size: 25px;
+    opacity: 0.7;
+}
+
+.skills {
+    width: 300px;
+    text-align: center;
+}
+
+.sub_section {
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+    margin-top: 30px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.sub_text {
+    font-size: small;
+}
+
+.testimony {
+    width: 600px;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.testimony_author {
+    opacity: 0.5;
+}
+
+.footer_container {
+    background-color: #5c349d;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.footer_text {
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.fa-brands {
+    margin-inline: 60px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer_menu {
+    display: flex;
+    gap: 300px;
+    margin-top: 20px;
+}
+
+.footermenu_text {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer_menu ul,
+a {
+    color: rgba(255, 255, 255);
+}
